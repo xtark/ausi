@@ -1,0 +1,74 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body {
+    background: #FFFFFF;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+.boxtitle{
+	background-color: #02a9bb;
+	padding: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+}
+.container {
+	padding-top: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 150px;
+}
+.media {
+	font-size: 22px;
+}
+.nodisplay {
+	display: none;
+}
+.boxask{
+	background-color: #EEEEEE;
+	text-align: center;
+	padding: 10px;
+	color: #000000;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 20%;
+	min-height: 80px;
+}
+.textask{
+	background-color: #EEEEEE;
+	width: 70%;
+	height:100%;
+	color: #333333;
+	font-size: 20px;
+	padding: 20px;
+	border: 0px;
+	outline: none;
+}
+.btn.btn-go {
+ 	align-items : center;
+	width: 20%;
+	height:80%;
+	font-size: 20px;
+	background-color: #009db0;
+	border: 3px solid #02a9bb;
+	border-radius: 20px;
+	color: #FFFFFF;
+	-webkit-transition: border-color .3s ease-out, text-shadow .3s ease-out;
+	-o-transition: border-color .3s ease-out, text-shadow .3s ease-out;
+	transition: border-color .3s ease-out, text-shadow .3s ease-out;
+}
+.btn.btn-go:hover {
+	border-color: #008796;
+	text-shadow: 3px 2px 0 #008796;
+}
+.btn.btn-go-big {
+	width: 30%;
+}
+.btn.btn-go-bigtriple {
+	width: 30%;
+	font-size: 16px;
+}
